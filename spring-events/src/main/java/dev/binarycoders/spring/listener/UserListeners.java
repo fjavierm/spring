@@ -14,6 +14,7 @@ public class UserListeners {
     /**
      * Example of event listener using the implementation of {@link ApplicationListener}
      */
+    @Component
     static class RegisteredListener implements ApplicationListener<UserRegistered> {
 
         private static final Logger logger = LoggerFactory.getLogger(RegisteredListener.class);
